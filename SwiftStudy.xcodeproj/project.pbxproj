@@ -12,6 +12,10 @@
 		E5D79E762060C2780099AF28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5D79E742060C2780099AF28 /* Main.storyboard */; };
 		E5D79E782060C2780099AF28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D79E772060C2780099AF28 /* Assets.xcassets */; };
 		E5D79E7B2060C2780099AF28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5D79E792060C2780099AF28 /* LaunchScreen.storyboard */; };
+		E5D79E872060C4530099AF28 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D79E832060C4530099AF28 /* String.swift */; };
+		E5D79E882060C4530099AF28 /* String+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D79E842060C4530099AF28 /* String+Category.swift */; };
+		E5D79E892060C4530099AF28 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D79E852060C4530099AF28 /* UIColor.swift */; };
+		E5D79E8A2060C4530099AF28 /* DecimalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D79E862060C4530099AF28 /* DecimalFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		E5D79E772060C2780099AF28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5D79E7A2060C2780099AF28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5D79E7C2060C2780099AF28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5D79E832060C4530099AF28 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		E5D79E842060C4530099AF28 /* String+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Category.swift"; sourceTree = "<group>"; };
+		E5D79E852060C4530099AF28 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		E5D79E862060C4530099AF28 /* DecimalFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +68,20 @@
 				E5D79E772060C2780099AF28 /* Assets.xcassets */,
 				E5D79E792060C2780099AF28 /* LaunchScreen.storyboard */,
 				E5D79E7C2060C2780099AF28 /* Info.plist */,
+				E5D79E822060C38D0099AF28 /* Extension */,
 			);
 			path = SwiftStudy;
+			sourceTree = "<group>";
+		};
+		E5D79E822060C38D0099AF28 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E5D79E862060C4530099AF28 /* DecimalFormatter.swift */,
+				E5D79E832060C4530099AF28 /* String.swift */,
+				E5D79E842060C4530099AF28 /* String+Category.swift */,
+				E5D79E852060C4530099AF28 /* UIColor.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5D79E882060C4530099AF28 /* String+Category.swift in Sources */,
+				E5D79E872060C4530099AF28 /* String.swift in Sources */,
+				E5D79E8A2060C4530099AF28 /* DecimalFormatter.swift in Sources */,
 				E5D79E732060C2780099AF28 /* ViewController.swift in Sources */,
 				E5D79E712060C2780099AF28 /* AppDelegate.swift in Sources */,
+				E5D79E892060C4530099AF28 /* UIColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

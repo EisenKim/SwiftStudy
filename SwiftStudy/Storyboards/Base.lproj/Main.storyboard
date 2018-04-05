@@ -44,6 +44,65 @@
             </objects>
             <point key="canvasLocation" x="479.19999999999999" y="132.68365817091455"/>
         </scene>
+        <!--Layout View Controller-->
+        <scene sceneID="g7v-O8-859">
+            <objects>
+                <viewController storyboardIdentifier="LayoutViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MP1-RV-sJ7" customClass="LayoutViewController" customModule="SwiftStudy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kIf-ll-IMZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="21" translatesAutoresizingMaskIntoConstraints="NO" id="NON-yK-gZx">
+                                <rect key="frame" x="127" y="106" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="NON-yK-gZx" secondAttribute="height" multiplier="1:1" id="5sk-sU-T6c"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ezw-au-pxv">
+                                <rect key="frame" x="16" y="297" width="343" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="ezw-au-pxv" secondAttribute="height" multiplier="343:150" id="plC-gi-NJ7"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="91Q-xZ-kPP">
+                                <rect key="frame" x="16" y="575" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="91Q-xZ-kPP" secondAttribute="height" multiplier="343:30" id="FgO-Bp-dUh"/>
+                                </constraints>
+                                <state key="normal" title="Position Change"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ezw-au-pxv" firstAttribute="top" secondItem="NON-yK-gZx" secondAttribute="bottom" constant="71" id="0Mt-VZ-heC"/>
+                            <constraint firstItem="ezw-au-pxv" firstAttribute="leading" secondItem="DZ5-vg-zOz" secondAttribute="leading" constant="16" id="QYu-PN-N1J"/>
+                            <constraint firstItem="DZ5-vg-zOz" firstAttribute="trailing" secondItem="91Q-xZ-kPP" secondAttribute="trailing" constant="16" id="f6t-aD-k6c"/>
+                            <constraint firstItem="DZ5-vg-zOz" firstAttribute="bottom" secondItem="91Q-xZ-kPP" secondAttribute="bottom" constant="62" id="jGi-S4-vtU"/>
+                            <constraint firstItem="NON-yK-gZx" firstAttribute="top" secondItem="DZ5-vg-zOz" secondAttribute="top" constant="86" id="my9-bC-vqa"/>
+                            <constraint firstItem="DZ5-vg-zOz" firstAttribute="trailing" secondItem="NON-yK-gZx" secondAttribute="trailing" constant="128" id="nzr-2M-RZT"/>
+                            <constraint firstItem="91Q-xZ-kPP" firstAttribute="leading" secondItem="DZ5-vg-zOz" secondAttribute="leading" constant="16" id="uEO-AQ-v2a"/>
+                            <constraint firstItem="NON-yK-gZx" firstAttribute="leading" secondItem="DZ5-vg-zOz" secondAttribute="leading" constant="127" id="vMq-9X-aAx"/>
+                            <constraint firstItem="DZ5-vg-zOz" firstAttribute="trailing" secondItem="ezw-au-pxv" secondAttribute="trailing" constant="16" id="vTD-Qv-Frk"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DZ5-vg-zOz"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnPositionChange" destination="91Q-xZ-kPP" id="TI2-Yz-xM8"/>
+                        <outlet property="fIvSampleAspect" destination="5sk-sU-T6c" id="xnx-hE-uX9"/>
+                        <outlet property="fIvSampleLeading" destination="vMq-9X-aAx" id="aaC-8Q-Nwg"/>
+                        <outlet property="fIvSampleTop" destination="my9-bC-vqa" id="bb2-ie-vJj"/>
+                        <outlet property="fIvSampleTrailling" destination="nzr-2M-RZT" id="VLQ-Pn-Y7V"/>
+                        <outlet property="ivSample" destination="NON-yK-gZx" id="Y7u-9r-8QO"/>
+                        <outlet property="lblResult" destination="ezw-au-pxv" id="bN9-qs-3wa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wZ1-C1-pip" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1621.5999999999999" y="-318.89055472263868"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="BA0-3Q-qsn">
             <objects>
@@ -63,4 +122,7 @@
             <point key="canvasLocation" x="-238" y="133"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="21" width="720" height="553"/>
+    </resources>
 </document>

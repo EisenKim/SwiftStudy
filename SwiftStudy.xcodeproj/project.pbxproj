@@ -10,6 +10,7 @@
 		E50F40F52063384A00666163 /* BasicTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50F40F32063384A00666163 /* BasicTableViewCell.swift */; };
 		E50F40F62063384A00666163 /* BasicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E50F40F42063384A00666163 /* BasicTableViewCell.xib */; };
 		E50F40F82063452400666163 /* LayoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50F40F72063452400666163 /* LayoutViewController.swift */; };
+		E52B394B20760A7E00D05000 /* UICustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52B394A20760A7E00D05000 /* UICustomButton.swift */; };
 		E5D79E712060C2780099AF28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D79E702060C2780099AF28 /* AppDelegate.swift */; };
 		E5D79E732060C2780099AF28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D79E722060C2780099AF28 /* ViewController.swift */; };
 		E5D79E762060C2780099AF28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5D79E742060C2780099AF28 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		E50F40F32063384A00666163 /* BasicTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTableViewCell.swift; sourceTree = "<group>"; };
 		E50F40F42063384A00666163 /* BasicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicTableViewCell.xib; sourceTree = "<group>"; };
 		E50F40F72063452400666163 /* LayoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutViewController.swift; sourceTree = "<group>"; };
+		E52B394A20760A7E00D05000 /* UICustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICustomButton.swift; sourceTree = "<group>"; };
 		E5D79E6D2060C2780099AF28 /* SwiftStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5D79E702060C2780099AF28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5D79E722060C2780099AF28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		E52B39492076096D00D05000 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E52B394A20760A7E00D05000 /* UICustomButton.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52B394B20760A7E00D05000 /* UICustomButton.swift in Sources */,
 				E5D79E882060C4530099AF28 /* String+Category.swift in Sources */,
 				E5D79E872060C4530099AF28 /* String.swift in Sources */,
 				E50F40F82063452400666163 /* LayoutViewController.swift in Sources */,

@@ -12,7 +12,7 @@ class LayoutViewController: UIViewController {
 
     @IBOutlet weak var ivSample: UIImageView!
     @IBOutlet weak var lblResult: UILabel!
-    @IBOutlet weak var btnPositionChange: UIButton!
+    @IBOutlet weak var btnPositionChange: UICustomButton!
     
     @IBOutlet weak var fIvSampleTop: NSLayoutConstraint!
     @IBOutlet weak var fIvSampleLeading: NSLayoutConstraint!

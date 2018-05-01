@@ -39,7 +39,7 @@ class LayoutViewController: UIViewController {
         sResult = "[Info 1]\n x = \(fSampleImageView_X_Axiz), y = \(fSampleImageView_Y_Axiz), width = \(fSampleImageView_Width), height = \(fSampleImageView_Height)\n\n[Info 2]\n top = \(self.fIvSampleTop.constant), Lead = \(self.fIvSampleLeading.constant), Trail = \(self.fIvSampleTrailling.constant), Aspect = \(self.fIvSampleAspect.constant)"
         self.lblResult.numberOfLines = 0
         self.lblResult.text = sResult
-        
+//        self.btnPositionChange.backgroundColor = UIColor.blue
         self.btnPositionChange.addTarget(self, action: #selector(self.doChangePosition), for: .touchUpInside)
         
     }
@@ -48,10 +48,10 @@ class LayoutViewController: UIViewController {
     
     @objc func doChangePosition() {
         if isChanged {
-            
+            self.fIvSampleTop.constant = 86.0
             self.isChanged = false
         } else {
-            
+            self.fIvSampleTop.constant = 106.0
             self.isChanged = true
         }
         self.initUI()

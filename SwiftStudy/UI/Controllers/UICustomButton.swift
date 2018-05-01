@@ -13,9 +13,10 @@ class UICustomButton : UIButton {
 
     required init(coder aDecoder: NSCoder){
         super.init(coder: aDecoder)!
-        self.backgroundColor = UIColor(hex: "#000000")
-        self.setTitleColor(UIColor.white, for: .normal)
         
+        self.backgroundColor = UIColor(hex: "#ff4b32")
+        self.setTitleColor(UIColor.white, for: .normal)
+        self.setTitleColor(UIColor.blue, for: .highlighted)
     }
     
 }

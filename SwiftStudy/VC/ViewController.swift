@@ -12,7 +12,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     @IBOutlet weak var tblMain: UITableView!
     
-    let arrTitles = ["Layout", "Stack Animaion"]
+    let arrTitles = ["Layout", "Stack Animaion", "Dynamic Label"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,6 +59,10 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             self.navigationController?.pushViewController(controller, animated: true)
             break
         case 1:
+            break
+        case 2:
+            let controller = sbMain.instantiateViewController(withIdentifier: "DynamicLabelViewController") as! DynamicLabelViewController
+            self.navigationController?.pushViewController(controller, animated: true)
             break
         default:
             break

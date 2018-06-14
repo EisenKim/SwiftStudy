@@ -22,6 +22,7 @@
 		E5D79E882060C4530099AF28 /* String+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D79E842060C4530099AF28 /* String+Category.swift */; };
 		E5D79E892060C4530099AF28 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D79E852060C4530099AF28 /* UIColor.swift */; };
 		E5D79E8A2060C4530099AF28 /* DecimalFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D79E862060C4530099AF28 /* DecimalFormatter.swift */; };
+		E5E9B76220CF62F900A4A218 /* DynamicLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E9B76120CF62F900A4A218 /* DynamicLabelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		E5D79E842060C4530099AF28 /* String+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Category.swift"; sourceTree = "<group>"; };
 		E5D79E852060C4530099AF28 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		E5D79E862060C4530099AF28 /* DecimalFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecimalFormatter.swift; sourceTree = "<group>"; };
+		E5E9B76120CF62F900A4A218 /* DynamicLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicLabelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 			children = (
 				E5D79E722060C2780099AF28 /* ViewController.swift */,
 				E50F40F72063452400666163 /* LayoutViewController.swift */,
+				E5E9B76120CF62F900A4A218 /* DynamicLabelViewController.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E52B394B20760A7E00D05000 /* UICustomButton.swift in Sources */,
+				E5E9B76220CF62F900A4A218 /* DynamicLabelViewController.swift in Sources */,
 				E59317D320983223001DC7C2 /* Basic2LinesTableViewCell.swift in Sources */,
 				E5D79E882060C4530099AF28 /* String+Category.swift in Sources */,
 				E5D79E872060C4530099AF28 /* String.swift in Sources */,
